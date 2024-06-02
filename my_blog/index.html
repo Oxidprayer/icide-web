@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Aki_Icide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" id="home">HOME</a></li>
+                <li><a href="#" id="post">POST</a></li>
+                <li><a href="#" id="chat">CHAT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="content">
+            <h1>Aki_Icide</h1>
+            <p><span>❤️</span></p>
+            <footer>
+                <a href="https://telegram.org" id="telegram">Telegram Link</a>
+                <a href="https://twitter.com" id="twitter">Twitter Link</a>
+                <span>v0.2beta</span>
+            </footer>
+        </section>
+        <section id="post-section" class="hidden">
+            <textarea id="post-content" placeholder="Write your post here..."></textarea>
+            <button id="submit-post">Submit Post</button>
+        </section>
+        <section id="chat-section" class="hidden">
+            <div id="chat-box">
+                <!-- Messages will appear here -->
+            </div>
+            <input type="text" id="chat-message" placeholder="Type your message...">
+            <button id="send-message">Send</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
